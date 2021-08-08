@@ -52,8 +52,6 @@
 
 @include breakpoint-down (800px){
   .header-menu {
-    position: relative;
-    z-index: 90;
     background-color: transparent;
     padding: 0;
     margin: 0;
@@ -69,20 +67,24 @@
 
   .header-menu__svg {
     display: block;
+    color: $color-black;
+    transition: color 0.4s ease;
+
+    &:hover {
+      color: $color-green;
+    }
   }
 
   .header-menu__box{
-    position: fixed;
-    z-index: 1;
-    top: 70px;
-    right: 0;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: -24px;
+    height: 100vh;
     display: none;
     overflow: auto;
     background-color: $color-black;
-    padding: 15px;
-    background-image: url(../../img/close.svg);
-    background-repeat: no-repeat;
-    background-position: right 5px top 5px;
+    padding: 24px;
     margin-right: 24px;
   }
 
@@ -94,9 +96,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .header-menu__list {
     margin-top: -16px;
   }
   

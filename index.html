@@ -40,10 +40,11 @@
         </div>
       </nav>
 
-      <section class="site-header__main header-main">
+      <section class="site-header__main header-main shopping">
         <a class="header-main__logo-link" href="#"><img class="header-main__logo-img" src="img/logo.svg" alt="logo"
             width="177" height="18"></a>
-        <button class="header-main__mobile-search" type="button"></button>
+        <button class="header-main__mobile-search" type="button">
+        </button>
         <div class="header-main__modal">
           <form class="header-main__form" action="https://echo.htmlacademy.ru" method="GET">
             <select class="header-main__select" name="select" style="-webkit-appearance: none;">
@@ -78,13 +79,114 @@
           </svg>
           <span class="header-main__cart-number">4</span>
         </a>
+        <div class="shopping__cart">
+          <div class="shopping__header">
+            <h3 class="shopping__header-heading">Shopping cart</h3>
+            <button class="shopping__header-close" type="button"></button>
+          </div>
+          <ul class="shopping__list">
+            <li class="shopping__item catigory">
+              <div class="shopping__cart-left">
+                <img class="shopping__cart-left-img" src="https://via.placeholder.com/268x280?text=PRODUCT" width="100" height="67" alt="cart img">
+                <ul class="shopping__cart-left-list">
+                  <li class="shopping__cart-left-item">
+                    <button class="shopping__cart-left-button shopping__cart-left-wish">Wishlist</button>
+                  </li>
+                  <li class="shopping__cart-left-item">
+                    <button class="shopping__cart-left-button shopping__cart-left-compare">Compare</button>
+                  </li>
+                  <li class="shopping__cart-left-item">
+                    <button class="shopping__cart-left-button shopping__cart-left-remove">Remove</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="shopping__cart-right">
+                <h4 class="shopping__cart-right-heading">Product-title</h4>
+                <table>
+                  <tr class="shopping__cart-right-tr">
+                    <th class="shopping__cart-right-th">Farm:</th>
+                    <td class="shopping__cart-right-td">Tharamis Farm</td>
+                  </tr>
+                  <tr class="shopping__cart-right-tr">
+                    <td class="shopping__cart-right-th">Freshness:</td>
+                    <td class="shopping__cart-right-td">1 day old</td>
+                  </tr>
+                </table>
+                <div class="catigory__product-stars">
+                  <img class="catigory__product-empty" src="img/empty.png" alt="stars" width="89" height="16">
+                  <div class="catigory__product-full-box">
+                    <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                    <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                    <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                    <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                    <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                  </div>
+                </div>
+                <div class="shopping__cart-right-money">
+                  <p class="shopping__cart-right-price">36.99 USD <span class="shopping__cart-right-sale">48.56 USD</span></p>
+                  <button class="shopping__cart-right-btn"><span class="shopping__cart-right-pcs">1 pcs</span>Pcs</button>
+                </div>
+              </div>
+            </li>
+            <li class="shopping__item catigory">
+              <div class="shopping__cart-left">
+                <img class="shopping__cart-left-img" src="https://via.placeholder.com/268x280?text=PRODUCT" width="100" height="67" alt="cart img">
+                <ul class="shopping__cart-left-list">
+                  <li class="shopping__cart-left-item">
+                    <button class="shopping__cart-left-button shopping__cart-left-wish">Wishlist</button>
+                  </li>
+                  <li class="shopping__cart-left-item">
+                    <button class="shopping__cart-left-button shopping__cart-left-compare">Compare</button>
+                  </li>
+                  <li class="shopping__cart-left-item">
+                    <button class="shopping__cart-left-button shopping__cart-left-remove">Remove</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="shopping__cart-right">
+                <h4 class="shopping__cart-right-heading">Product-title</h4>
+                <table>
+                  <tr class="shopping__cart-right-tr">
+                    <th class="shopping__cart-right-th">Farm:</th>
+                    <td class="shopping__cart-right-td">Tharamis Farm</td>
+                  </tr>
+                  <tr class="shopping__cart-right-tr">
+                    <td class="shopping__cart-right-th">Freshness:</td>
+                    <td class="shopping__cart-right-td">1 day old</td>
+                  </tr>
+                </table>
+                <div class="catigory__product-stars">
+                  <img class="catigory__product-empty" src="img/empty.png" alt="stars" width="89" height="16">
+                  <div class="catigory__product-full-box">
+                    <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                    <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                    <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                    <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                    <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                  </div>
+                </div>
+                <div class="shopping__cart-right-money">
+                  <p class="shopping__cart-right-price">36.99 USD <span class="shopping__cart-right-sale">48.56 USD</span></p>
+                  <button class="shopping__cart-right-btn"><span class="shopping__cart-right-pcs">1 pcs</span>Pcs</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="shopping__footer">
+            <span class="shopping__footer-info">Subtotal</span>
+            <p class="shopping__footer-allprice">73.98 USD</p>
+            <div class="shopping__footer-box">
+              <p class="shopping__footer-text">Continue shopping</p>
+              <a class="shopping__footer-link" href="#">Go to Checkout</a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="site-header__menu header-menu">
         <button class="header-menu__link" type="button">
-          <svg class="header-menu__svg" width="24" height="20">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h24v2H0V0zm0 8h24v2H0V8zm24 8H0v2h24v-2z"
-              fill="151515" />
+          <svg class="header-menu__svg" width="24" height="20" fill="currentcolor">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h24v2H0V0zm0 8h24v2H0V8zm24 8H0v2h24v-2z"/>
           </svg>
         </button>
         <div class="header-menu__box">
@@ -230,7 +332,7 @@
               <a class="index-product__link" href="#">Kitchen</a>
             </li>
           </ul>
-          <a class="index-product__button" href="#">More products</a>
+          <a class="index-product__button" href="category.html">More products</a>
         </div>
         <div class="cards-wrapper__box">
           <ul class="cards-wrapper__list">
@@ -284,7 +386,7 @@
                 <a href="#" class="index-product__link">Baby</a>
               </li>
             </ul>
-            <a href="#" class="index-product__button">More products</a>
+            <a class="index-product__button" href="category.html">More products</a>
           </div>
           <div class="index-product__card products-card">
             <div class="products-card__box">
@@ -302,7 +404,7 @@
             <div class="products-card__box">
               <div class="products-card__top">
                 <img class="products-card__top-img" src="https://via.placeholder.com/236x180?text=PRODUCT"
-                  alt="products" width="236" height="180"><span class="products-card__top-sale">-36%$</span>
+                  alt="products" width="236" height="180"><span class="products-card__top-sale">-36%</span>
               </div>
               <h3 class="products-card__heading">Product Title</h3>
               <p class="products-card__text">Space for a small product description</p>
@@ -345,7 +447,7 @@
                 <a href="#" class="index-product__link">Pork</a>
               </li>
             </ul>
-            <a href="#" class="index-product__button">More products</a>
+            <a class="index-product__button" href="category.html">More products</a>
           </div>
 
           <div class="index-product__card products-card">
@@ -364,7 +466,7 @@
             <div class="products-card__box">
               <div class="products-card__top">
                 <img class="products-card__top-img" src="https://via.placeholder.com/236x180?text=PRODUCT"
-                  alt="products" width="236" height="180"><span class="products-card__top-sale">-36%$</span>
+                  alt="products" width="236" height="180"><span class="products-card__top-sale">-36%</span>
               </div>
               <h3 class="products-card__heading">Product Title</h3>
               <p class="products-card__text">Space for a small product description</p>
@@ -526,7 +628,7 @@
           </a>
           <div class="blog__eat-box">
             <a class="blog__eat-links blog__eat-column" href="#">
-              <div class="blog__eat-column_card">
+              <div class="blog__eat-column-card">
                 <span class="blog__column-info">
                   Vegetable
                 </span>
@@ -534,8 +636,8 @@
                   Which vegetable your family will love and want’s eat each day
                 </h3>
                 <div class="blog__column-author">
-                  <span class="blog__column-author_name">Author</span>
-                  <time class="blog__column-author_time" datetime="2020-6-15 12:00">15. 6. 2020</time>
+                  <span class="blog__column-author-name">Author</span>
+                  <time class="blog__column-author-time" datetime="2020-6-15 12:00">15. 6. 2020</time>
                 </div>
               </div>
             </a>
@@ -545,8 +647,8 @@
                   <div class="blog__feature">
                     <h3 class="blog__eat-heading">Salat is kinda good start to your morning routines </h3>
                     <div class="blog__eat-author">
-                      <span class="blog__eat-author_name">Author</span>
-                      <time class="blog__eat-author_time" datetime="2020-1-11 12:00">11.1.2020</time>
+                      <span class="blog__eat-author-name">Author</span>
+                      <time class="blog__eat-author-time" datetime="2020-1-11 12:00">11.1.2020</time>
                     </div>
                   </div>
                 </a>
@@ -556,8 +658,8 @@
                   <div class="blog__feature">
                     <h3 class="blog__eat-heading">Our chef tips for a great and healthy breakfast</h3>
                     <div class="blog__eat-author">
-                      <span class="blog__eat-author_name">Author</span>
-                      <time class="blog__eat-author_time" datetime="2020-1-11 12:00">11.1.2020</time>
+                      <span class="blog__eat-author-name">Author</span>
+                      <time class="blog__eat-author-time" datetime="2020-1-11 12:00">11.1.2020</time>
                     </div>
                   </div>
                 </a>
@@ -567,8 +669,8 @@
                   <div class="blog__feature">
                     <h3 class="blog__eat-heading">Prepare a simple and delicious breads</h3>
                     <div class="blog__eat-author">
-                      <span class="blog__eat-author_name">Author</span>
-                      <time class="blog__eat-author_time" datetime="2020-1-11 12:00">11.1.2020</time>
+                      <span class="blog__eat-author-name">Author</span>
+                      <time class="blog__eat-author-time" datetime="2020-1-11 12:00">11.1.2020</time>
                     </div>
                   </div>
                 </a>
