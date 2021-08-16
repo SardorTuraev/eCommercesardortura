@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freshnesecom</title>
+  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container-lg">
+    <header class="site-header">
+      <h1 class="visually-hidden">Header</h1>
+      <nav class="site-header__nav nav">
+        <div class="nav__box">
+          <ul class="nav__contact-list">
+            <li class="nav__contact-item">
+              <a href="#" class="nav__contact-link nav__contact-link--active">Chat with us</a>
+            </li>
+            <li class="nav__contact-item">
+              <a href="tel:420336775664" class="nav__contact-link">+420 336 775 664</a>
+            </li>
+            <li class="nav__contact-item">
+              <a href="mailto:info@freshnesecom.com" class="nav__contact-link">info@freshnesecom.com</a>
+            </li>
+          </ul>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Careers</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <section class="site-header__main header-main shopping">
+        <h2 class="visually-hidden">Site header main</h2>
+        <a class="header-main__logo-link" href="#"><img class="header-main__logo-img" src="img/logo.svg" alt="logo"
+          width="177" height="18"></a>
+          <button class="header-main__mobile-search" type="button"></button>
+          <div class="header-main__modal">
+            <form class="header-main__form" action="https://echo.htmlacademy.ru" method="GET">
+              <select class="header-main__select" name="select" style="-webkit-appearance: none;">
+                <option value="All">All categories</option>
+                <option value="Bakery">Bakery</option>
+                <option value="Fruit and vegetables">Fruit and vegetables</option>
+                <option value="Meat and fish">Meat and fish</option>
+                <option value="Drinks">Drinks</option>
+                <option value="Kitchen">Kitchen</option>
+                <option value="selSpecialect">Special nutrition</option>
+                <option value="Baby">Baby</option>
+                <option value="Pharmacy">Pharmacy</option>
+              </select>
+              <input class="header-main__field" type="search" name="search" placeholder="Search Products, categories ..."
+              required>
+              <button class="header-main__search" type="submit"></button>
+            </form>
+          </div>
+          <a class="header-main__account" href="#">
+            <svg class="header-main__account-svg" width="22" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 22l.79-2.88c2.61-9.5 13.81-9.5 16.42 0L20 22" stroke-width="2.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+              <path d="M11 11.98a5 5 0 100-10 5 5 0 000 10z" stroke-width="2.5" stroke-linecap="round"
+              stroke-linejoin="bevel" />
+            </svg>
+          </a>
+          <a class="header-main__cart" href="#">
+            <svg class="header-main__cart-svg" width="24" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+              d="M17.89 19.85H6.11a1.42 1.42 0 01-1.38-1.08L2.08 8.16a.7.7 0 01.68-.87h18.48a.7.7 0 01.68.87l-2.65 10.61a1.42 1.42 0 01-1.38 1.08v0zM9.8 2.15L6.9 7.29M13.88 2.15l2.91 5.14"
+              stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span class="header-main__cart-number">4</span>
+          </a>
+          <div class="shopping__cart">
+            <div class="shopping__header">
+              <h3 class="shopping__header-heading">Shopping cart</h3>
+              <button class="shopping__header-close" type="button"></button>
+            </div>
+            <ul class="shopping__list">
+              <li class="shopping__item catigory">
+                <div class="shopping__cart-left">
+                  <img class="shopping__cart-left-img" src="https://via.placeholder.com/268x280?text=PRODUCT" width="100" height="67" alt="cart img">
+                  <ul class="shopping__cart-left-list">
+                    <li class="shopping__cart-left-item">
+                      <button class="shopping__cart-left-button shopping__cart-left-wish ">Wishlist</button>
+                    </li>
+                    <li class="shopping__cart-left-item">
+                      <button class="shopping__cart-left-button shopping__cart-left-compare">Compare</button>
+                    </li>
+                    <li class="shopping__cart-left-item">
+                      <button class="shopping__cart-left-button shopping__cart-left-remove">Remove</button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="shopping__cart-right">
+                  <h4 class="shopping__cart-right-heading">Product-title</h4>
+                  <table>
+                    <tr class="shopping__cart-right-tr">
+                      <th class="shopping__cart-right-th">Farm:</th>
+                      <td class="shopping__cart-right-td">Tharamis Farm</td>
+                    </tr>
+                    <tr class="shopping__cart-right-tr">
+                      <td class="shopping__cart-right-th">Freshness:</td>
+                      <td class="shopping__cart-right-td">1 day old</td>
+                    </tr>
+                  </table>
+                  <div class="catigory__product-stars">
+                    <img class="catigory__product-empty" src="img/empty.png" alt="stars" width="89" height="16">
+                    <div class="catigory__product-full-box">
+                      <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                      <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                      <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                      <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                      <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                    </div>
+                  </div>
+                  <div class="shopping__cart-right-money">
+                    <p class="shopping__cart-right-price">36.99 USD <span class="shopping__cart-right-sale">48.56 USD</span></p>
+                    <button class="shopping__cart-right-btn"><span class="shopping__cart-right-pcs">1 pcs</span>Pcs</button>
+                  </div>
+                </div>
+              </li>
+              <li class="shopping__item catigory">
+                <div class="shopping__cart-left">
+                  <img class="shopping__cart-left-img" src="https://via.placeholder.com/268x280?text=PRODUCT" width="100" height="67" alt="cart img">
+                  <ul class="shopping__cart-left-list">
+                    <li class="shopping__cart-left-item">
+                      <button class="shopping__cart-left-button shopping__cart-left-wish">Wishlist</button>
+                    </li>
+                    <li class="shopping__cart-left-item">
+                      <button class="shopping__cart-left-button shopping__cart-left-compare">Compare</button>
+                    </li>
+                    <li class="shopping__cart-left-item">
+                      <button class="shopping__cart-left-button shopping__cart-left-remove">Remove</button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="shopping__cart-right">
+                  <h4 class="shopping__cart-right-heading">Product-title</h4>
+                  <table>
+                    <tr class="shopping__cart-right-tr">
+                      <th class="shopping__cart-right-th">Farm:</th>
+                      <td class="shopping__cart-right-td">Tharamis Farm</td>
+                    </tr>
+                    <tr class="shopping__cart-right-tr">
+                      <td class="shopping__cart-right-th">Freshness:</td>
+                      <td class="shopping__cart-right-td">1 day old</td>
+                    </tr>
+                  </table>
+                  <div class="catigory__product-stars">
+                    <img class="catigory__product-empty" src="img/empty.png" alt="stars" width="89" height="16">
+                    <div class="catigory__product-full-box">
+                      <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                      <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                      <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                      <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                      <img class="catigory__product-full" src="img/star-full.png" alt="" width="17" height="16">
+                    </div>
+                  </div>
+                  <div class="shopping__cart-right-money">
+                    <p class="shopping__cart-right-price">36.99 USD <span class="shopping__cart-right-sale">48.56 USD</span></p>
+                    <button class="shopping__cart-right-btn"><span class="shopping__cart-right-pcs">1 pcs</span>Pcs</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="shopping__footer">
+              <span class="shopping__footer-info">Subtotal</span>
+              <p class="shopping__footer-allprice">73.98 USD</p>
+              <div class="shopping__footer-box">
+                <p class="shopping__footer-text">Continue shopping</p>
+                <a class="shopping__footer-link" href="#">Go to Checkout</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="site-header__menu header-menu">
+          <h2 class="visually-hidden">site header menu</h2>
+          <button class="header-menu__link" type="button">
+            <svg class="header-menu__svg" width="24" height="20">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h24v2H0V0zm0 8h24v2H0V8zm24 8H0v2h24v-2z"
+              fill="151515" />
+            </svg>
+          </button>
+          <div class="header-menu__box">
+            <ul class="header-menu__list">
+              <li class="header-menu__item menu-dropdown">
+                <a class="menu-dropdown__active" href="#">Bakery</a>
+                <ul class="menu-dropdown__list">
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">one</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">two</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">three</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-menu__item menu-dropdown">
+                <a class="menu-dropdown__active" href="#">Fruit and vegetables</a>
+                <ul class="menu-dropdown__list">
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">one</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">two</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">three</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-menu__item menu-dropdown">
+                <a class="menu-dropdown__active" href="#">Meat and fish</a>
+                <ul class="menu-dropdown__list">
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">one</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">two</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">three</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-menu__item menu-dropdown">
+                <a class="menu-dropdown__active" href="#">Drinks</a>
+                <ul class="menu-dropdown__list">
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">one</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">two</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">three</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-menu__item menu-dropdown">
+                <a class="menu-dropdown__active" href="#">Kitchen</a>
+                <ul class="menu-dropdown__list">
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">one</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">two</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">three</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-menu__item menu-dropdown">
+                <a class="menu-dropdown__active" href="#">Special nutrition</a>
+                <ul class="menu-dropdown__list">
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">one</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">two</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">three</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-menu__item menu-dropdown">
+                <a class="menu-dropdown__active" href="#">Baby</a>
+                <ul class="menu-dropdown__list">
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">one</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">two</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">three</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-menu__item menu-dropdown">
+                <a class="menu-dropdown__active" href="#">Pharmacy</a>
+                <ul class="menu-dropdown__list">
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">one</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">two</a>
+                  </li>
+                  <li class="menu-dropdown__item">
+                    <a class="menu-dropdown__link" href="#">three</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </header>
+      
+      <main class="site-main pb-5">
+        <h1 class="sr-only">Category</h1>
+        <section class="py-3 overflow-auto">
+          <ul class="list-unstyled d-flex align-items-center mb-0">
+            <li class="mr-2 flex-nowrap">
+              <a class="text-decoration-none text-secondary flex-nowrap" href="index.html">Homepage</a>
+            </li>
+            /
+            <li class="mr-2 ml-2 flex-nowrap">
+              <a class="text-decoration-none text-secondary flex-nowrap" href="checkout.html">Checkout page</a>
+            </li>
+          </ul>
+        </section>
+        
+        <section class="pt-3">
+          <h1 class="sr-only">Products Checkout</h1>
+          <form action="https://htmlacademy.ru">
+            <div class="row">
+              <div class="col-8">
+                <h2 class=""></h2>
+              </div>
+
+              <div class="col-4">
+                
+              </div>
+            </div>
+          </form>
+        </section>
+        
+      </main>
+      
+      <!--   <span class="site-footer__copyright">
+        Copyright © 2020 petrbilek.com
+      </span>
+    </footer> -->
+  </div>
+  
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
